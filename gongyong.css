@@ -1,0 +1,132 @@
+body{
+    font:16px "微软雅黑";
+    padding:0;
+    margin:0;
+}
+/*pc.css*/
+@media screen and (min-width:1400px){
+    .content{
+    width: 100%;
+    }
+}
+/*pad.css*/
+@media screen and (max-width:1399px) and (min-width:768px){
+    .content{
+        width: 100%;
+    }
+}
+/*phone*/
+@media screen and (max-width:767px){
+    .content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:991px) and (min-width:768px){
+    .yincang{
+        width: 100%;
+        display: none;
+    }
+    .yincang1{
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+.container1 {
+    width: 100%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-right: auto;
+    margin-left: auto;
+}
+    .footer {
+        height: 24rem;
+    }
+
+    .header {
+        height: 5rem;
+    }
+.bj_lunbo {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+.bj_lunbo1 {
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+#parent{
+    display:flex;
+    /*是否换行*/
+    flex-wrap:wrap-reverse;
+    /*对齐方式*/
+    justify-content:space-around;
+}
+
+.d1{
+    width: 300px;
+    height: 320px;
+}
+.a1{
+    background: #fff;
+}
+
+/*定义图片大小*/
+.tupian{
+    width: 320px;
+}
+
+/*首页卡片的大小*/
+.card-height{
+    height: 400px;
+}
+.card-size{
+    margin: 1.5rem;
+}
+
+div>p{
+    font-size: 0.8rem;
+}
+
+
+/*耳机动画*/
+@keyframes er11 {
+    0%{
+        transform: rotate(10deg)
+    }
+    25%{
+        transform: rotate(20deg)
+    }
+    50%{
+        transform: rotate(35deg)
+    }
+    75%{
+        transform: rotate(50deg)
+    }
+    100%{
+        transform: rotate(50deg)
+    }
+}
+@keyframes er22 {
+    0%{
+        transform: rotate(-10deg)
+    }
+    25%{
+        transform: rotate(-20deg)
+    }
+    50%{
+        transform: rotate(-35deg)
+    }
+    75%{
+        transform: rotate(-50deg)
+    }
+    100%{
+        transform: rotate(-50deg)
+    }
+}
+.er111{
+    animation:er11 .3s linear 1 forwards;
+}
+.er222{
+    animation:er22 .3s linear 1 forwards;
+}
+

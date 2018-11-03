@@ -1,0 +1,24 @@
+div {
+  border: 1px solid #f10215;
+  width: 200px; }
+
+h2 {
+  color: #f10215; }
+
+a:hover {
+  color: #f10215; }
+
+p {
+  background: #f10215;
+  width: 200px; }
+
+p {
+  border-top: 2px solid #f10215; }
+
+footer {
+  color: #f10215; }
+
+a {
+  color: black; }
+  a:hover {
+    color: blue; }

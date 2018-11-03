@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/e8.css">
+        <title>详情页1</title>
+        <style>
+                #sg{
+                    width: 100%;
+                    height: 900px;
+                    background-image: url("img/e8/front.jpg");
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                }
+           
+               #zi{
+                    margin-top: 400px;
+                }
+               .xz{
+                  overflow: hidden;
+               }
+             
+            .img1 img{
+                    width: 50px;
+                    margin-bottom: -100px
+                }
+       footer {
+                    height: 24rem;
+                }
+                .header {
+                    height: 5rem;
+                }
+        /**/
+            </style>
+</head>
+
+<iframe src="header.html" frameborder="0" class="w-100 display-1 header"></iframe>
+<body>
+<div class="container1">
+        <div  class="tou">
+            <img src="img/e8/E8_black_1000x1000.png" alt="">
+            <div class="text-1">
+                <p class="p1">Beoplay E8</p>
+                <p class="p2">真正的无线蓝牙耳机</p>
+                <p class="p2">带来 Bang & Olufsen 标志性音效</p>
+                <p  class="p3">零售价：RMB 2,298</p>
+            </div>
+        </div>
+        <div class="dong1">
+            <img src="img/e8/E8_CharcoalSand_4.jpg" class="img-gd">
+            <p class="p4">拥有你钟爱的所有基本要素</p>
+            <div class="p5">E8就像一块珠宝，但是拥有前沿的工程设计。这款宝石大小的产品具有先进的计算能力，确
+             保声音能无线、完整的从你的手机传递到你的耳中。</div>
+            <div class="a0" id="a0"></div>
+            <p class="p4">专为聆听音乐而设计</p>
+            <div class="p5">尽管E8的尺寸如此之神奇，你第一个会发现的特点就是它听起来是如此的不可思议。</div>
+            <img src="img/e8/E8_iPhone.png">
+            <img src="img/e8/E8_floating_right_black_noshadow.png">
+            <img src="img/e8/E8_floating_left_black_noshadow.png">
+            <img src="img/e8/E8_Black_6.jpg"  class="img-gd">
+            <p class="p4">指尖控制</p>
+            <div class="p5">E8 的左、右耳机都拥有触控界面， 触觉技术为你手指的轻触提供了广泛的可能性。</div>
+            <div class="aa"><video src="img/e8/E8_him_video_circle.mp4" autoplay="autoplay" loop="loop"></video></div>
+            <img src="img/e8/E8_CharcoalSand_2.jpg" >
+            <p class="p4">用你的声音启动</p>
+            <div class="p5">用指尖操作总是非常便捷，但是用你的声音控制才是智能化的未来。</div>
+            <div class="aa"><video src="img/e8/E8_her_video_circle.mp4" autoplay="autoplay" loop="loop"></video></div>
+            <div id="sg">
+                <div class="sg1">
+                    <div id="zi">
+                        <h5>声音</h5><h4>精致调校</h4>
+                        <p>真正的无线自由，E8声音毫不妥协</p>
+                    </div>
+                </div>
+                <div class="sg1">
+                    <div id="zi">
+                            <h5>声音</h5><h4>精致调校</h4>
+                            <p>真正的无线自由，E8声音毫不妥协</p>
+                    </div>
+                </div>
+                <div class="sg1">
+                        <div id="zi">
+                                <h5>声音</h5><h4>精致调校</h4>
+                        <p>真正的无线自由，E8声音毫不妥协</p>
+                            </div>
+                </div>
+                <div class="sg1">
+                        <div id="zi">
+                                <h5>声音</h5><h4>精致调校</h4>
+                        <p>真正的无线自由，E8声音毫不妥协</p>
+                            </div>
+                </div>
+                <div class="sg1">
+                        <div id="zi">
+                                <h5>声音</h5><h4>精致调校</h4>
+                                <p>真正的无线自由，E8声音毫不妥协</p>
+                            </div>
+                </div>
+            </div>
+        </div>
+        <div class="a">
+                <div class="b">
+                        <img src="./img/e8//01_small.jpg" alt="">
+                </div>
+                <div class="c">
+                    <img src="./img/e8//02_small.jpg" alt="">
+                    <img src="./img/e8//03_small.jpg" alt="">
+                <div class="d">
+                        <img src="./img/e8//04_small.jpg" alt="">
+                        <img src="./img/e8//05_small.jpg" alt="">
+                </div>
+            </div>
+            </div>
+<script src="./js/jquery-1.11.3.js"></script>
+<script>
+    $(".sg1").hover(
+        function(){
+            $(this).toggleClass("hover")
+            var xz=$(".xz")
+            if(xz.is(":hidden"))
+            xz.show(100)
+            else
+            xz.hide(100)
+        }
+    )
+
+</script>
+</body>
+<iframe src="footer.html" frameborder="0" class="w-100 footer"></iframe>
+
+</html>

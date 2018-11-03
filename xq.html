@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="viewport" content="width=device-width,inital-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/gongyong.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>详情页1</title>
+    <style>
+        /*详情页上下翻滚*/
+        section {
+            height: 100vh;
+        }
+
+        .bg-0 {
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .bg-1 {
+            background-image: url("img/banner/P6_Gallery_Click5.jpg");
+        }
+
+        .bg-2 {
+            background: #275016;
+        }
+
+        .bg-3 {
+            transition-property:all;
+            transition-duration:5s;
+            background-image: url("img/banner/3.jpg");
+        }
+        .bg-31{
+            background-image: url("img/banner/e8_racinggreen_top.jpg");
+        }
+        h2{
+            font-size: 20rem;
+            text-align: center;
+            color: white;
+
+        }
+        .h2{
+            font-size: 30rem;
+            text-align: center;
+            color: white;
+            display: flow;
+        }
+        .h2-color{
+            transition-property:all;
+            transition-duration:5s;
+            color: #17b1c6;
+        }
+        .bg-4 {
+            background-image: url("img/banner/multiroom-slider-desktop.jpg");
+        }
+
+        .bg-5 {
+            background-image: url("img/banner/e8_racinggreen_top.jpg");
+        }
+
+        .bg-6 {
+            background-image: url("img/banner/H8i_5_L.jpg");
+        }
+
+        .yuan {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-image: url("img/所有产品/h2.png");
+
+        }
+
+        .yuan1 {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 2px solid #ffffff;
+        }
+
+        .da {
+            padding-left: 40%;
+            padding-top: 15%;
+        }
+
+        .er {
+            width: 100%;
+            margin-top: 15rem;
+        }
+
+        .er1 {
+            width: 300px;
+            height: 260px;
+            background-image: url("img/所有产品/er1.png");
+
+        }
+
+        .er2 {
+            width: 300px;
+            height: 260px;
+            background-image: url("img/所有产品/er2.png");
+
+        }
+
+        .er3 {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: #0c0535 solid;
+            justify-content: left;
+            background: yellow;
+        }
+
+        /* .er1:hover{ transform: rotate(50deg)}
+         .er2:hover{  transform: translateX(-120px);}*/
+    </style>
+</head>
+<iframe src="header.html" frameborder="0" class="w-100 display-1 header"></iframe>
+<body>
+<div class="container1" style="background: #F1F1F1">
+
+    <!--视频-->
+    <video loop="loop" autoplay="autoplay" class="content">
+        <source src="img/项目视频/2v.mp4">
+    </video>
+    <section class="bg-1 bg-0"><h1 style="font-size: 30rem;text-align: center;color: white">img1</h1></section>
+    <!--圆圈-->
+    <section class="bg-2 bg-0 ">
+        <div class="da">
+            <div class="yuan">
+                <div class="yuan1" id="aa">
+                    <div class="yuan1" id="aa1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--耳机-->
+    <section>
+        <div class=" d-flex er justify-content-center" id="er">
+            <div class="er1" id="er1"></div>
+            <div class="er3" id="er3"></div>
+            <div class="er2 " id="er2"></div>
+        </div>
+    </section>
+    <section class="bg-3 bg-0" id="img">img3
+       <h2>img1</h2>
+    </section>
+    <!--视频-->
+    <video loop="loop" autoplay="autoplay" class="content" src="img/项目视频/3v.mp4"></video>
+    <section class="bg-4 bg-0">img4</section>
+    <section class="bg-5 bg-0">img5</section>
+    <section class="bg-6 bg-0">img6</section>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/gongyong.js"></script>
+
+</body>
+<iframe src="footer.html" frameborder="0" class="w-100 footer"></iframe>
+</html>

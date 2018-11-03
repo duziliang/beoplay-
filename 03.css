@@ -1,0 +1,56 @@
+.my_btn {
+  background: #0aa1ed;
+  color: #fff;
+  text-decoration: none;
+  width: 8rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  border-radius: .2rem;
+  font-size: .8rem;
+  display: block; }
+  .my_btn:hover {
+    color: red; }
+
+#main {
+  width: 200px;
+  height: 200px;
+  background: red;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: linear; }
+  #main:hover {
+    background: yellow;
+    border-radius: 50%; }
+
+/*div{
+  @include my_shadow;
+}
+p{
+  @include my_shadow;
+}
+*/
+ul {
+  list-style: none; }
+  ul li {
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    color: #00aeef;
+    border: red; }
+    ul li:hover {
+      color: red;
+      text-decoration: none; }
+    ul li a:hover {
+      text-decoration: none; }
+
+ul li a {
+  color: #000; }
+  ul li a:hover {
+    color: yellow; }
+  ul li a:visited {
+    color: green; }

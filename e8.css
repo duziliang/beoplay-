@@ -1,0 +1,141 @@
+.tou{
+    width: 100%;
+    height: 500px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.tou img{
+    width: 500px;
+}
+.text-1{
+    color: #666666;
+}
+.p1{
+    font-size: 50px;
+    color: #666666;
+    margin-top:100px;
+    margin-bottom: 20px;
+}
+.p2{
+    font-size: 2rem;
+    margin: 0;
+}
+.p3{
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.dong1{
+    background-color: #DBD9D3;
+    text-align: center;
+
+}
+.dong1 {
+    width: 100%;
+}
+.p4{
+    font-size: 60px;
+
+}
+.p5{
+    color: #242424;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    width: 72%;
+    height: 200px;
+    margin-left: 15%;
+}
+.img-gd{
+    width: 100%;
+}
+
+.aa{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 35%;
+}
+.a0{
+    width: 698px;
+    height: 620px;
+   animation:a1 2s;
+    animation-iteration-count:1;
+    animation-direction:alternate;
+    animation-fill-mode:forwards;
+    margin-left: 600px;
+}
+
+@keyframes a1 {
+    0%{ 
+    transition-duration:1s;
+    background-image: url("../img/e8/E8_Design_00.png");
+    }
+    25%{
+        background-image: url("../img/e8/E8_Design_01.png")
+    }
+    50%{
+        background-image: url("../img/e8/E8_Design_02.png")
+    }
+    75%{
+        background-image: url("../img/e8/E8_Design_03.png")
+    }
+    100%{
+        background-image: url("../img/e8/E8_Design_04.png")
+    }
+}
+
+
+        #sg{
+            width: 100%;
+            height: 900px;
+            background-image: url("img/e8/front.jpg");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+        }
+        .sg1{ 
+            width: 20%;
+            height: 900px;
+            color: rgba(0 , 0, 0, 0);            
+            background: rgba(240, 4, 4, 0)
+        }
+        .sg1.hover{ 
+            width: 20%;
+            height: 900px;
+            border: 1px solid rgba(0, 119, 255, 0.308);
+            color:rgb(255, 255, 255);            
+            background: rgba(0, 140, 255, 0.151)
+        }
+       #zi{
+            margin-top: 400px;
+        }
+       .xz{
+          overflow: hidden;
+       }
+     
+    .img1 img{
+            width: 50px;
+            margin-bottom: -100px
+        }
+        .a{
+            width: 100%;
+            height: 800px;
+            display: flex;
+        }
+        .b {
+            width: 35%;
+            height: 800px;
+        }
+        .c{
+            width: 62.9%;
+            height: 400px;
+            padding: 0;
+        }
+        .d{
+            width: 100%;
+            height: 400px;
+        }
